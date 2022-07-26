@@ -1,0 +1,9 @@
+package matrices;
+
+public class MultiplyMatrices {
+
+public static void main(String args[])
+{
+	int r1=2,c1=3;
+	
+}
