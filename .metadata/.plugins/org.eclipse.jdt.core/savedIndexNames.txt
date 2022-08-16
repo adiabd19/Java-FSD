@@ -1,0 +1,21 @@
+INDEX VERSION 1.131+C:\Java FSD Phase 2\.metadata\.plugins\org.eclipse.jdt.core
+4770084.index
+1269188505.index
+1774333154.index
+793942279.index
+3866393627.index
+1294249556.index
+628494800.index
+561774472.index
+1576609978.index
+1865797976.index
+3595449901.index
+4284169381.index
+2896876925.index
+3552567198.index
+3785043269.index
+391068235.index
+2329622042.index
+4032292025.index
+1835039963.index
+3554128008.index
