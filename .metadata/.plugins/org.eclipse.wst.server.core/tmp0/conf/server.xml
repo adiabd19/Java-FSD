@@ -152,7 +152,11 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\Java FSD Phase 2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Java FSD Phase 2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RetrievingProductDetails" path="/RetrievingProductDetails" reloadable="true" source="org.eclipse.jst.jee.server:RetrievingProductDetails"/><Context docBase="C:\Java FSD Phase 2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\AddingNewProduct" path="/AddingNewProduct" reloadable="true" source="org.eclipse.jst.jee.server:AddingNewProduct"/><Context docBase="C:\Java FSD Phase 2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ProductDetailsPortal" path="/ProductDetailsPortal" reloadable="true" source="org.eclipse.jst.jee.server:ProductDetailsPortal"/></Host>
+      <Context docBase="C:\Java FSD Phase 2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Java FSD Phase 2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\RetrievingProductDetails" path="/RetrievingProductDetails" reloadable="true" source="org.eclipse.jst.jee.server:RetrievingProductDetails"/><Context docBase="C:\Java FSD Phase 2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\AddingNewProduct" path="/AddingNewProduct" reloadable="true" source="org.eclipse.jst.jee.server:AddingNewProduct"/><Context docBase="C:\Java FSD Phase 2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ProductDetailsPortal" path="/ProductDetailsPortal" reloadable="true" source="org.eclipse.jst.jee.server:ProductDetailsPortal"/><Context docBase="C:\Java FSD Phase 2\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\DevelopingBackendAdmin" path="/DevelopingBackendAdmin" reloadable="true" source="org.eclipse.jst.jee.server:DevelopingBackendAdmin">
+
+<Resource auth="Container" driverClassName="com.mysql.cj.jdbc.Driver" maxActive="20" maxIdle="5" maxWait="10000" name="administretive_portal" password="" type="javax.sql.DataSource" url="jdbc:mysql://localhost:8080/administretive_portal" username="root"/>
+
+</Context></Host>
     </Engine>
   </Service>
 </Server>

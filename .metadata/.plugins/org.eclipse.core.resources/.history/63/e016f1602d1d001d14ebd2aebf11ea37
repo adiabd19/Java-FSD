@@ -1,5 +1,0 @@
-package productInfo;
-
-public @interface WebServlet {
-
-}
