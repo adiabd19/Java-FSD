@@ -1,7 +1,0 @@
-INDEX VERSION 1.4+C:\Java FSD Phase 3\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-735729052.index
-105320258.index
-1327909254.index
-2753956875.index
-2251440047.index
-2794097295.index
